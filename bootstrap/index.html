@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--Fontaswome CDN-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--External CSS File-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Website Using Bootstrap 5</title>
+  </head>
+  <body>
+    <!--Nav bar start  -->
+    <nav class="navbar navbar-expand-lg bg-color">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold fs-3" href="#">My Turns</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <i class="fa-solid fa-bars fs-5  navbar-toggler-icon"></i>
+   
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-6 fw-bold"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6" aria-current="page" href="#tips&trick">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6" aria-current="page" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6" aria-current="page" href="#online-section">Service</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button type="button" class="btn btn-primary text-light btn-sm">
+              Sign In
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Nav bar Ends -->
+    <!--Hero Section Starts-->
+    <section class="bg-main bg-color hero-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div
+            class=" mt-5 mt-lg-0  text-center text-lg-start  order-lg-0 order-1 col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-item-start"
+          >
+            <h1 class="text-capitaize fw-bold text-white">
+              Build fast, responsive sites
+            </h1>
+            <p class="mt-4 mb-3 para-width text-light-grey">
+              Powerful, extensible, and feature-packed frontend toolkit. Build
+              and customize with Sass, utilize prebuilt grid system and
+              components, and bring projects to life with powerful JavaScript
+              plugins.
+            </p>
+            <div class="text-center w=100 text-md-start">
+              <button
+                class="text-capitalize btn text-light fs-5 btn-primary px-5 py-2"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Get in Contact"
+              >
+                Contact Us
+              </button>
+            </div>
+          </div>
+          <!-- hero images -->
+          <div class=" mt-5 mt-lg-0  text-center text-lg-start  order-lg-1 order-0 col-12 col-md-12 col-lg-6">
+            <div class="text-md-center text-lg-end">
+              <video
+                src="./images/hero.mp4"
+                loop
+                muted
+                autoplay
+                class="hero-video--section"
+              >
+                your browser doesnot support the video tag
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- shape divider  -->
+      <div class="custom-shape-divider-bottom-1710669323">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!--Hero Section Ends-->
+    <!-- .........Services-section STARTS  -->
+    <section class=" service-section  common-section">
+      <div class="container fw-bold text-center common-title">
+        <h1 class="common-heading">
+          What We Can Do For <br />
+          Your Business
+        </h1>
+        <hr class="w-25 mx-auto" />
+      </div>
+
+      <div class="container">
+      
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col shadow">
+            <div class="card  service-card h-100">
+              <img
+                src="./images/link.gif"
+                class="card-img-top mb-3"
+                alt="link gif"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-4 mb-3">Link Building</h5>
+                <p class="card-text mb-4">
+                  Bootstrap’s cards provide a flexible and extensible content
+                  container with multiple variants and options.
+                  <div class="d-flex justify-content-center align-items-center mb-3">
+                     <a href="#service" class="icon-span rounded-circle d-flex justify-content-center align-items-center" >
+                          <i class="fa-solid fa-arrow-right"></i>
+                     </a>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col shadow">
+            <div class="card service-card h-100">
+              <img src="./images/speaker.gif" class="card-img-top mb-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-4 mb-3">Content marketing</h5>
+                <p class="card-text mb-4">Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.</p>
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                  <a href="#service" class="icon-span rounded-circle d-flex justify-content-center align-items-center" >
+                       <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+               </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col shadow">
+            <div class="card service-card h-100">
+              <img src="./images/seo.gif" class="card-img-top mb-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold fw-bold fs-4 mb-3">On Page SEO</h5>
+                <p class="card-text mb-4">
+                  Powerful, extensible, and feature-packed Build and customize ,bring projects with powerful JavaScript.
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                  <a href="#service" class="icon-span rounded-circle d-flex justify-content-center align-items-center" >
+                       <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- .........Services-section ENDS  -->
+
+    <!--Digital Product Showcase Starts-->
+    <section class=" bg-color more-info-section">
+      <div class="container">
+        <div class="row ">
+           <!-- hero images -->
+          <div class=" text-center text-lg-start col-12 col-md-12 col-lg-5 imgg-section">
+              <figure>
+                <img src="./images/phone.gif" alt="diital  Gif" class="img-fluid w-75">
+              </figure>
+         </div>
+         
+         
+      <!--Content-Context-->
+          <div
+            class="col-12 col-md-12 col-lg-7 d-flex flex-column justify-content-center align-item-start "
+          >
+          <h2 class=" text-center text-lg-start  text-capitaize fw-bold text-white common-heading fs-1">
+          Steps to build <br> Successful Digital product
+          </h2>
+          <p class="mt-4 mb-4 fs-5 para-width text-light-grey">
+            Override global, component, or utility class variables to customize Bootstrap just how you like. No need to redeclare each rule, just a new variable value. Override global, component, or utility class variables to customize Bootstrap just how you like. 
+          </p>
+          <div class="text-center w=100 text-md-start">
+            <button
+              class="text-capitalize btn text-light fs-5 fw-bolder btn-primary px-3 py-2"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Let's Start"
+            >
+              Explore Now
+            </button>
+          </div>
+           
+           
+          </div>
+        </div> 
+    </div>
+    </section>
+<!-- SERVICE SECTION Customers AND OnLINE  Section-->
+    <section class="  common-section" id="online-section">
+      <div class="container fw-bold text-center common-title">
+        <h1 class="common-heading">
+         Generating New Customers Via <br />
+         Online Mode
+         
+        </h1>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container">
+        <div class="row g-5 ">
+          <div class="col-12 col-lg-6   ">
+            <div class=" py-3  shadow  d-flex  costumers-card ">
+              <img src="./images/Social Media Marketing (HD).png" alt="social meadia" class="d-md-block d-none img-fluid mx-3 " width="200px">
+            
+              <div class="row onlines-card ">
+                <p class=" mt-4 fs-3 fw-bold px-2 ">Social media marketing</p>
+                <p class="mb-3 px-2">
+                 Socialmedia is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+                </p>
+              </div>
+          </div>
+           </div>
+
+           <div class="col-12 col-lg-6  ">
+            <div class=" py-3  shadow  d-flex  costumers-card ">
+              <img src="./images/Online Shopping.png" alt="Phone Gif" class="d-md-block d-none img-fluid mx-3 " width="200px">
+            
+              <div class="row onlines-card">
+                <p class=" mt-4 fs-3 fw-bold px-2 ">E-commerce managing</p>
+                <p class="mb-3 px-2">
+                 Socialmedia is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+                </p>
+              </div>
+          </div>
+           </div>
+
+           <div class="col-12 col-lg-6    ">
+            <div class=" py-3  shadow  d-flex  costumers-card  ">
+              <img src="./images/Content Marketing.png" alt="Phone Gif" class="d-md-block d-none img-fluid mx-3 " width="200px">
+            
+              <div class="row onlines-card">
+                <p class=" mt-4 fs-3 fw-bold px-2 ">Content Marketing</p>
+                <p class="mb-3 px-2">
+                 Socialmedia is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+                </p>
+              </div>
+          </div>
+           </div>
+
+           <div class="col-12 col-lg-6   ">
+            <div class=" py-3  shadow  d-flex costumers-card   ">
+              <img src="./images/Video Editing Interface.png" alt="Phone Gif" class="d-md-block d-none img-fluid mx-3 " width="200px">
+            
+              <div class="row onlines-card">
+                <p class=" mt-4 fs-3 fw-bold px-2  ">Video Editing</p>
+                <p class="mb-3 px-2">
+                 Socialmedia is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+                </p>
+              </div>
+          </div>
+           </div>
+      </div>
+      </div>
+    </section>
+    <!--Digital Product Showcase Ends-->
+
+  <!--REVIEWS SECTION STARTS-->  
+  <section class=" bg-color pt-5 mb-5  common-section">
+    <div class="container fw-bold text-center common-title">
+      <h1 class="common-heading  text-white">
+     What Client Say <br />
+       About Us
+       
+      </h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+  <!-- under REVIEW SECTION -Carasouel TESTOMIONAL-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+        <div class="container">
+              <div class="row g-4">
+                <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                  <div class="card p-3" style="width: 18rem;">
+                    <img src="./images/reviewer.png" class="card-img-top mt-3" alt="reviewer.png">
+                    <div class="card-body">
+                      <h4 class="  mt-3 mb-3">Dan Wensday</h4>
+                      <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="mb-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </div>
+                    
+                      </div>
+                   </div>
+                  </div>
+
+                   <div class="col-12 col-lg-4">
+                    <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem;">
+                      <img src="./images/revierer2.png" class="card-img-top mt-3" alt="reviewer.png">
+                      <div class="card-body">
+                        <h4 class="  mt-3 mb-3">Nami San</h4>
+                        <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="mb-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      
+                        </div>
+                     </div>
+                    </div>
+
+                     <div class="col-12 col-lg-4">
+                      <div class="d-flex justify-content-center align-items-center">
+                      <div class="card p-3" style="width: 18rem;">
+                        <img src="./images/elonvai.jpg" class="card-img-top mt-3" alt="reviewer.png">
+                        <div class="card-body">
+                          <h4 class="  mt-3 mb-3">Elon Musk</h4>
+                          <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="mb-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                        </div>
+                        
+                          </div>
+                       </div>
+                       </div>
+                 </div>
+            </div>
+        </div>
+
+        <!--Second Template-->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card p-3" style="width: 18rem;">
+                  <img src="./images/revierer2.png" class="card-img-top mt-3" alt="reviewer.png">
+                  <div class="card-body">
+                    <h4 class="  mt-3 mb-3">Nami San</h4>
+                    <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="mb-3">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                   
+                    </div>
+                 </div>
+                 </div>
+
+
+                   <div class="col-12 col-lg-4">
+                    <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem;">
+                      <img src="./images/elonvai.jpg" class="card-img-top mt-3" alt="reviewer.png">
+                      <div class="card-body">
+                        <h4 class="  mt-3 mb-3">Elon Musk</h4>
+                        <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="mb-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                      
+                        </div>
+                     </div>
+                     </div>
+                       
+                     <div class="col-12 col-lg-4">
+                      <div class="d-flex justify-content-center align-items-center">
+                      <div class="card p-3" style="width: 18rem;">
+                        <img src="./images/reviewer.png" class="card-img-top mt-3" alt="reviewer.png">
+                        <div class="card-body">
+                          <h4 class="  mt-3 mb-3">Dan Wensday</h4>
+                          <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="mb-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                        </div>
+                        
+                          </div>
+                       </div>
+                       </div>
+               </div>
+          </div>
+        </div>
+
+        <!-- third template  -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card p-3" style="width: 18rem;">
+                  <img src="./images/reviewer.png" class="card-img-top mt-3" alt="reviewer.png">
+                  <div class="card-body">
+                    <h4 class="  mt-3 mb-3">Dan Wensday</h4>
+                    <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="mb-3">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                  
+                    </div>
+                 </div>
+                 </div>
+
+                 <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                  <div class="card p-3" style="width: 18rem;">
+                    <img src="./images/elonvai.jpg" class="card-img-top mt-3" alt="reviewer.png">
+                    <div class="card-body">
+                      <h4 class="  mt-3 mb-3">Elon Musk</h4>
+                      <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="mb-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </div>
+                    
+                      </div>
+                   </div>
+                   </div>
+
+                 <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                  <div class="card p-3" style="width: 18rem;">
+                    <img src="./images/revierer2.png" class="card-img-top mt-3" alt="reviewer.png">
+                    <div class="card-body">
+                      <h4 class="  mt-3 mb-3">Nami San</h4>
+                      <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="mb-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                    
+                      </div>
+                   </div>
+                   </div>
+
+                
+               </div>
+          </div>
+        </div>
+       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   
+  </section>
+  <!--REVIEWS SECTION ENDS-->  
+
+
+  <!--TIPS AND TRICK Section  STARTS-->
+  <section class=" service-section  common-section" id="tips&trick">
+    <div class="container fw-bold text-center common-title">
+      <h1 class="common-heading">
+       Tips and Tricks From <br />
+       Our Experts
+      </h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-lg-3 ">
+          
+          <div class="card p-3 Experts shadow-sm " style="width: 18rem;">
+            <img src="./images/uiux-desiginer.jpg" class="card-img-top mt-3" alt="ui/ux uiux-desiginer.png">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <p class="small text-body-secondary"> <i class="fa-solid fa-book-open-reader"></i> : 5000 </p>
+                <p class="small text-grey">March 17, 2024</p>
+
+              </div>
+              <h3 class="  mt-3 mb-3">Graphic Desiginer</h3>
+
+              <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="mb-3">
+                <button
+                class="text-capitalize btn text-light fs-5 btn-secondary px-5 py-2"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="check it out"
+              >
+               Read More
+              </button>
+              </div>
+            </div>
+              </div>
+              
+           </div>
+
+           <div class="col-12 col-lg-3">
+          
+            <div class="card p-3 Experts shadow-sm" style="width: 18rem;">
+              <img src="./images/fullstack-developer.jpg" class="card-img-top mt-3 " alt="fullstack-developer">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p class="small text-body-secondary"> <i class="fa-solid fa-book-open-reader"></i> : 84302 </p>
+                  <p class="small text-grey">March 17, 2024</p>
+  
+                </div>
+                <h3 class="  mt-3 mb-3">Marketing  Manager</h3>
+                <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="mb-3">
+                  <button
+                  class="text-capitalize btn text-light fs-5 btn-secondary px-5 py-2"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="check it out"
+                >
+                 Read More
+                </button>
+                </div>
+              </div>
+                </div>
+                
+             </div>
+
+             <div class="col-12 col-lg-3">
+          
+              <div class="card p-3 Experts shadow-sm" style="width: 18rem;">
+                <img src="./images/uiux-desiginer.jpg" class="card-img-top mt-3" alt="ui/ux uiux-desiginer.png">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="small text-body-secondary"> <i class="fa-solid fa-book-open-reader"></i> : 3880 </p>
+                    <p class="small text-grey">March 17, 2024</p>
+    
+                  </div>
+                  <h3 class="  mt-3 mb-3">UI/UX Desiginer</h3>
+                  <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="mb-3">
+                    <button
+                    class="text-capitalize btn text-light fs-5 btn-secondary px-5 py-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="check it out"
+                  >
+                   Read More
+                  </button>
+                  </div>
+                </div>
+                  </div>
+                  
+               </div>
+
+               <div class="col-12 col-lg-3">
+          
+                <div class="card p-3 Experts shadow-sm" style="width: 18rem;">
+                  <img src="./images/fullstack-developer.jpg" class="card-img-top mt-3 " alt="fullstack-developer">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="small text-body-secondary"> <i class="fa-solid fa-book-open-reader"></i> : 4800 </p>
+                      <p class="small text-grey">March 17, 2024</p>
+      
+                    </div>
+                    <h3 class="  mt-3 mb-3">Full-stack Developer</h3>
+                    <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="mb-3">
+                      <button
+                      class="text-capitalize btn text-light fs-5 btn-secondary px-5 py-2"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="top"
+                      title="check it out"
+                    >
+                     Read More
+                    </button>
+                    </div>
+                  </div>
+                    </div>
+                    
+                 </div>
+
+                 
+      
+      </div>
+    </div>
+  </section>
+  <!--TIPS AND TRICK Section  Ends-->
+
+  <!--Contact-section Starts-->
+  <section class=" common-section contact-section  pt-5 text-white">
+          <!--Shape divider starts-->
+          <div class="custom-shape-divider-top-1710777615">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+          <!--Shape divider ends-->
+    
+    <div class="container fw-bold text-center common-title mt-5 pt-5">
+      <h1 class="common-heading  text-light ">
+         Contact Us
+      </h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+    <div class="container">
+      <form class="row g-3 mx-auto">
+        <div class="col-md-6 col-12">
+          <label for="inputusername" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="inputusername4" placeholder="First name" required>
+        </div>
+        <div class="col-md-6 col-12">
+          <label for="inputPassword4" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="inputusername4" placeholder="Last name" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us about yourself"></textarea re>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+            <label class="form-check-label" for="gridCheck">
+              check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary px-4 py-1 fs-4">Sign in</button>
+        </div>
+      </form>
+    </div>
+
+
+
+    
+
+  </section>
+  <!--Contact-section Ends-->
+
+  <!--Footer Section Starts-->
+  <section class="footer-section">
+    <div class="contact-details">
+      <div class="container ">
+          <div class="row g-0">
+            <div class="col-12 col-lg-4">
+               <div class="contact-div rounded-start d-flex flex-column justify-content-center align-items-center p-5">
+                <div class="icon-div  d-flex justify-content-center align-items-center ">
+                  <img src="./images/Call (2).png" alt="call" class="img-fluid rounded-circle">
+
+                </div>
+                <p class="text-white mt-3">(+977) 9876543210</p>
+               </div>
+            </div>
+
+            <div class="col-12 col-lg-4">
+              <div class="contact-div d-flex flex-column justify-content-center align-items-center p-5">
+               <div class="icon-div  d-flex justify-content-center align-items-center">
+                 <img src="./images/Email 3D Icon Model For UI.png" alt="email us" class="img-fluid rounded-circle">
+
+               </div>
+               <p class="text-white mt-3">myturns99@gmail.com</p>
+              </div>
+           </div>
+
+           <div class="col-12 col-lg-4">
+            <div class="contact-div  rounded-end d-flex flex-column  justify-content-center align-items-center p-5">
+             <div class="icon-div  d-flex justify-content-center align-items-center ">
+               <img src="./images/Maps 3D Icon Model For UI.png" alt="Map" class="img-fluid rounded-circle">
+
+             </div>
+             <p class="text-white mt-3">Dhangai-05 ,Nepal</p>
+            </div>
+         </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="features-links container">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-6 col-lg-3">
+                 <div class="link-list-group text-light d-flex flex-column justify-content-start align-items-starts g-3">
+                     
+                       <h3 class="text-white fw-bold">Links</h3> 
+                      <li class="links">Home</li>
+                      <li class="links">Docs</li>
+                      <li class="links">Examples</li>
+                      <li class="links">Themes</li>
+                      <li class="links">Blog</li>
+                      <li class="links">Swag Store</li>
+                 </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div class="link-list-group text-light d-flex flex-column justify-content-start align-items-starts g-3">
+                
+                  <h3 class="text-white fw-bold">Guides</h3> 
+                 <li class="links">Getting started</li>
+                 <li class="links">Starter template</li>
+                 <li class="links">Webpack</li>
+                 <li class="links">Parcel</li>
+              
+            </div>
+     </div>
+
+     <div class="col-6 col-lg-3">
+      <div class="link-list-group text-light d-flex flex-column justify-content-start align-items-starts g-3">
+          
+            <h3 class="text-white fw-bold">Projects</h3> 
+           <li class="links">Bootstrap 5</li>
+           <li class="links">Bootstrap 4</li>
+           <li class="links">Icons</li>
+           <li class="links">RFS</li>
+           <li class="links">npm starter
+          </li>
+         
+      </div>
+</div>
+
+<div class="col-8 col-lg-3">
+  <div class="link-list-group text-light d-flex flex-column justify-content-start align-items-starts g-3">
+      
+        <h3 class="text-white fw-bold">Subscribe</h3> 
+     <div class="subscribe-div d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-primary fw-bolder" type="submit">Subscribe</button>
+     </div>
+  </div>
+</div>
+</div>
+      </div>
+    </div>
+
+    <div class="copyright text-end ">
+      <p class=" me-5 mt-5">
+         &copy;copyright free website template using Bootstrap-5   <a href="" class="footer-email-link"> bikashzl1722@gmail.com</a>
+
+      </p>
+    </div>
+
+  </section>
+  <!--Footer Section Ends-->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
